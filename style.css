@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 60%;
+  margin: auto;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+}
+
+.main {
+  transition: 0.5s ease;
+  width: 8%;
+  padding-bottom: 8%;
+  margin: 15px;
+  position: relative;
+  border: 2px solid black;
+  border-radius: 10px;
+  transform: rotate(45deg);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#chance1,
+#chance2,
+#chance3,
+#chance4,
+#chance5,
+#chance6,
+#chance7 {
+  display: none;
+}
+.title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "Balsamiq Sans", cursive;
+  color: #30db89;
+  font-size: 4vw;
+}
+.sub0,
+.sub1,
+.sub2,
+.sub3,
+.sub4,
+.sub5,
+.sub6,
+.sub7,
+.sub8,
+.sub9,
+.sub10,
+.sub11,
+.sub12,
+.sub13,
+.sub14,
+.sub15,
+.sub16,
+.sub17,
+.sub18,
+.sub19,
+.sub20,
+.sub21,
+.sub22,
+.sub23,
+.sub24,
+.sub25,
+.sub26,
+.sub27,
+.sub28,
+.sub29,
+.sub30,
+.sub31 {
+  transition: 0.5s ease;
+  width: 4%;
+  padding-bottom: 4%;
+  margin: 8px;
+  position: relative;
+  border-radius: 10px;
+}
+
+#submit-button2,
+#submit-button3,
+#submit-button4,
+#submit-button5,
+#submit-button6,
+#submit-button7,
+#submit-button8 {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+#submit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sameColor,
+#sameColorV2,
+#sameColorV3,
+#sameColorV4,
+#sameColorV5,
+#sameColorV6,
+#sameColorV7,
+#sameColorV8 {
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 2vw;
+  margin-right: 20px;
+}
+#samePos,
+#samePosV2,
+#samePosV3,
+#samePosV4,
+#samePosV5,
+#samePosV6,
+#samePosV7,
+#samePosV8 {
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 2vw;
+  margin-left: 20px;
+}
