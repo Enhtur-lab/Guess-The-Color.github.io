@@ -6,8 +6,6 @@
 body {
   width: 60%;
   margin: auto;
-  border-right: 1px solid gray;
-  border-left: 1px solid gray;
 }
 
 .main {
@@ -35,12 +33,51 @@ body {
   display: none;
 }
 .title {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
   font-family: "Balsamiq Sans", cursive;
   color: #30db89;
   font-size: 4vw;
+}
+#rem0,
+#rem1,
+#rem2,
+#rem3,
+#rem4,
+#rem5,
+#rem6,
+#rem7,
+#rem8,
+#rem9,
+#rem10,
+#rem11,
+#rem12,
+#rem13,
+#rem14,
+#rem15,
+#rem16,
+#rem17,
+#rem18,
+#rem19,
+#rem20,
+#rem21,
+#rem22,
+#rem23,
+#rem24,
+#rem25,
+#rem26,
+#rem27,
+#rem28,
+#rem29,
+#rem30,
+#rem31 {
+  transition: 0.5s ease;
+  width: 4%;
+  padding-bottom: 4%;
+  margin: 8px;
+  position: relative;
+  border-radius: 10px;
 }
 .sub0,
 .sub1,
@@ -74,24 +111,27 @@ body {
 .sub29,
 .sub30,
 .sub31 {
-  transition: 0.5s ease;
-  width: 4%;
-  padding-bottom: 4%;
-  margin: 8px;
-  position: relative;
-  border-radius: 10px;
 }
-
 #submit-button2,
 #submit-button3,
 #submit-button4,
 #submit-button5,
 #submit-button6,
 #submit-button7,
-#submit-button8 {
+#submit-button8,
+#try-again {
   display: none;
   justify-content: center;
   align-items: center;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
 }
 #submit-button {
   display: flex;
@@ -121,4 +161,70 @@ body {
   font-family: "Balsamiq Sans", cursive;
   font-size: 2vw;
   margin-left: 20px;
+}
+.tp {
+  background-color: #ffd83e;
+  height: 40px;
+}
+@media only screen and (max-width: 900px) {
+  body {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  body {
+    width: 100%;
+  }
+  .main {
+    transition: 0.5s ease;
+    width: 15%;
+    padding-bottom: 15%;
+    margin: 15px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 10px;
+    transform: rotate(45deg);
+  }
+  .title {
+    font-size: 8vw;
+  }
+  #rem0,
+  #rem1,
+  #rem2,
+  #rem3,
+  #rem4,
+  #rem5,
+  #rem6,
+  #rem7,
+  #rem8,
+  #rem9,
+  #rem10,
+  #rem11,
+  #rem12,
+  #rem13,
+  #rem14,
+  #rem15,
+  #rem16,
+  #rem17,
+  #rem18,
+  #rem19,
+  #rem20,
+  #rem21,
+  #rem22,
+  #rem23,
+  #rem24,
+  #rem25,
+  #rem26,
+  #rem27,
+  #rem28,
+  #rem29,
+  #rem30,
+  #rem31 {
+    transition: 0.5s ease;
+    width: 7%;
+    padding-bottom: 7%;
+    margin: 8px;
+    position: relative;
+    border-radius: 10px;
+  }
 }

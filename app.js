@@ -42,67 +42,67 @@ const b31 = document.querySelector(".sub31")
 function change_color(i) {
     if (i === 0) {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 == 1) {
             b0.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 == 2) {
             b0.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 == 3) {
             b0.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 == 4) {
             b0.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 == 5) {
             b0.style.backgroundColor = "purple";
         } else {
             b0.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     } else if (i === 1) {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b1.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b1.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b1.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b1.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b1.style.backgroundColor = "purple";
         } else {
             b1.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     } else if (i === 2) {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b2.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b2.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b2.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b2.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b2.style.backgroundColor = "purple";
         } else {
             b2.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     } else {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b3.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b3.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b3.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b3.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b3.style.backgroundColor = "purple";
         } else {
             b3.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     }
     
@@ -110,67 +110,67 @@ function change_color(i) {
 function change_colorV2(i) {
     if (i === 0) {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b4.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b4.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b4.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b4.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b4.style.backgroundColor = "purple";
         } else {
             b.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     } else if (i === 1) {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b5.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b5.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b5.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b5.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b5.style.backgroundColor = "purple";
         } else {
             b5.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     } else if (i === 2) {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b6.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b6.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b6.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b6.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b6.style.backgroundColor = "purple";
         } else {
             b6.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     } else {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b7.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b7.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b7.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b7.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b7.style.backgroundColor = "purple";
         } else {
             b7.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     }
     
@@ -178,67 +178,67 @@ function change_colorV2(i) {
 function change_colorV3(i) {
     if (i === 0) {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b8.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b8.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b8.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b8.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b8.style.backgroundColor = "purple";
         } else {
             b8.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     } else if (i === 1) {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b9.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b9.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b9.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b9.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b9.style.backgroundColor = "purple";
         } else {
             b9.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     } else if (i === 2) {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b10.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b10.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b10.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b10.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b10.style.backgroundColor = "purple";
         } else {
             b10.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     } else {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b11.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b11.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b11.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b11.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b11.style.backgroundColor = "purple";
         } else {
             b11.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     }
     
@@ -246,67 +246,67 @@ function change_colorV3(i) {
 function change_colorV4(i) {
     if (i === 0) {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b12.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b12.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b12.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b12.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b12.style.backgroundColor = "purple";
         } else {
             b.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     } else if (i === 1) {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b13.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b13.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b13.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b13.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b13.style.backgroundColor = "purple";
         } else {
             b13.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     } else if (i === 2) {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b14.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b14.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b14.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b14.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b14.style.backgroundColor = "purple";
         } else {
             b14.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     } else {
         subButtons.index[i] += 1;
         if (subButtons.index[i] === 1) {
             b15.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b15.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b15.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b15.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b15.style.backgroundColor = "purple";
         } else {
             b15.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     }
     
@@ -314,67 +314,67 @@ function change_colorV4(i) {
 function change_colorV5(i) {
     if (i === 0) {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b16.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b16.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b16.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b16.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b16.style.backgroundColor = "purple";
         } else {
             b16.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     } else if (i === 1) {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b17.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b17.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b17.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b17.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b17.style.backgroundColor = "purple";
         } else {
             b17.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     } else if (i === 2) {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b18.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b18.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b18.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b18.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b18.style.backgroundColor = "purple";
         } else {
             b18.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     } else {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b19.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b19.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b19.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b19.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b19.style.backgroundColor = "purple";
         } else {
             b19.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     }
     
@@ -382,67 +382,67 @@ function change_colorV5(i) {
 function change_colorV6(i) {
     if (i === 0) {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b20.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b20.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b20.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b20.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b20.style.backgroundColor = "purple";
         } else {
             b20.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     } else if (i === 1) {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b21.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b21.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b21.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b21.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b21.style.backgroundColor = "purple";
         } else {
             b21.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     } else if (i === 2) {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b22.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b22.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b22.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b22.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b22.style.backgroundColor = "purple";
         } else {
             b22.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     } else {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b23.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b23.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b23.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b23.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b23.style.backgroundColor = "purple";
         } else {
             b23.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     }
     
@@ -450,67 +450,67 @@ function change_colorV6(i) {
 function change_colorV7(i) {
     if (i === 0) {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b24.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b24.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b24.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b24.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b24.style.backgroundColor = "purple";
         } else {
             b24.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     } else if (i === 1) {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b25.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b25.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b25.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b25.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b25.style.backgroundColor = "purple";
         } else {
             b25.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     } else if (i === 2) {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b26.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b26.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b26.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b26.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b26.style.backgroundColor = "purple";
         } else {
             b26.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     } else {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b27.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b27.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b27.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b27.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b27.style.backgroundColor = "purple";
         } else {
             b27.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     }
     
@@ -518,72 +518,81 @@ function change_colorV7(i) {
 function change_colorV8(i) {
     if (i === 0) {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b28.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b28.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b28.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b28.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b28.style.backgroundColor = "purple";
         } else {
             b28.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     } else if (i === 1) {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b29.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b29.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b29.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b29.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b29.style.backgroundColor = "purple";
         } else {
             b29.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     } else if (i === 2) {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b30.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b30.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b30.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b30.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b30.style.backgroundColor = "purple";
         } else {
             b30.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     } else {
         subButtons.index[i] += 1;
-        if (subButtons.index[i] === 1) {
+        if (subButtons.index[i] % 6 === 1) {
             b31.style.backgroundColor = "yellow";
-        } else if (subButtons.index[i] === 2) {
+        } else if (subButtons.index[i] % 6 === 2) {
             b31.style.backgroundColor = "orange";
-        } else if (subButtons.index[i] === 3) {
+        } else if (subButtons.index[i] % 6 === 3) {
             b31.style.backgroundColor = "red";
-        } else if (subButtons.index[i] === 4) {
+        } else if (subButtons.index[i] % 6 === 4) {
             b31.style.backgroundColor = "blue";
-        } else if (subButtons.index[i] === 5) {
+        } else if (subButtons.index[i] % 6 === 5) {
             b31.style.backgroundColor = "purple";
         } else {
             b31.style.backgroundColor = "green";
-            subButtons.index[i] -= 6;
+             
         }
     }
     
 }
 function check() {
+    let count = 0;
+    for (let i = 0; i < 4; i++) {
+        if (subButtons.index[i] > 0)
+            count++;
+    }
+    if (count < 4) {
+        alert(`Таны оруулсан өнгөнүүд дутуу байна.`);
+        return;
+    }
     let array = [0, 0, 0, 0, 0, 0, 0];
     let sameColor = 0;
     for (let i = 0; i < 4; i++) {
@@ -609,8 +618,9 @@ function check() {
         document.getElementById("chance1").style.display = "flex";
         document.getElementById("submit-button2").style.display = "flex";
         document.getElementById("submit-button").style.display = "none";
+        change_color = undefined;    
     } else {
-        alert(`Congratulations, I hope you found the algorithm of this game.`);
+        alert(`Баяр хүргэе, Танд сонирхолтой байсан гэдэгт итгэлтэй байна.`);
     }
 
     for (let i = 0; i < 4; i++) {
@@ -618,6 +628,15 @@ function check() {
     }
 }
 function checkV2() {
+    let count = 0;
+    for (let i = 0; i < 4; i++) {
+        if (subButtons.index[i] > 0)
+            count++;
+    }
+    if (count < 4) {
+        alert(`Таны оруулсан өнгөнүүд дутуу байна.`);
+        return;
+    }
     let array = [0, 0, 0, 0, 0, 0, 0];
     let sameColor = 0;
     for (let i = 0; i < 4; i++) {
@@ -643,8 +662,9 @@ function checkV2() {
         document.getElementById("chance2").style.display = "flex";
         document.getElementById("submit-button3").style.display = "flex";
         document.getElementById("submit-button2").style.display = "none";
+        change_colorV2 = undefined; 
     } else {
-        alert(`Congratulations, I hope you found the algorithm of this game.`);
+        alert(`Баяр хүргэе, Танд сонирхолтой байсан гэдэгт итгэлтэй байна.`);
     }
 
     for (let i = 0; i < 4; i++) {
@@ -652,6 +672,15 @@ function checkV2() {
     }
 }
 function checkV3() {
+    let count = 0;
+    for (let i = 0; i < 4; i++) {
+        if (subButtons.index[i] > 0)
+            count++;
+    }
+    if (count < 4) {
+        alert(`Таны оруулсан өнгөнүүд дутуу байна.`);
+        return;
+    }
     let array = [0, 0, 0, 0, 0, 0, 0];
     let sameColor = 0;
     for (let i = 0; i < 4; i++) {
@@ -677,8 +706,9 @@ function checkV3() {
         document.getElementById("chance3").style.display = "flex";
         document.getElementById("submit-button4").style.display = "flex";
         document.getElementById("submit-button3").style.display = "none";
+        change_colorV3 = undefined; 
     } else {
-        alert(`Congratulations, I hope you found the algorithm of this game.`);
+        alert(`Баяр хүргэе, Танд сонирхолтой байсан гэдэгт итгэлтэй байна.`);
     }
 
     for (let i = 0; i < 4; i++) {
@@ -686,6 +716,15 @@ function checkV3() {
     }
 }
 function checkV4() {
+    let count = 0;
+    for (let i = 0; i < 4; i++) {
+        if (subButtons.index[i] > 0)
+            count++;
+    }
+    if (count < 4) {
+        alert(`Таны оруулсан өнгөнүүд дутуу байна.`);
+        return;
+    }
     let array = [0, 0, 0, 0, 0, 0, 0];
     let sameColor = 0;
     for (let i = 0; i < 4; i++) {
@@ -711,8 +750,9 @@ function checkV4() {
         document.getElementById("chance4").style.display = "flex";
         document.getElementById("submit-button5").style.display = "flex";
         document.getElementById("submit-button4").style.display = "none";
+        change_colorV4 = undefined; 
     } else {
-        alert(`Congratulations, I hope you found the algorithm of this game.`);
+        alert(`Баяр хүргэе, Танд сонирхолтой байсан гэдэгт итгэлтэй байна.`);
     }
 
     for (let i = 0; i < 4; i++) {
@@ -720,6 +760,15 @@ function checkV4() {
     }
 }
 function checkV5() {
+    let count = 0;
+    for (let i = 0; i < 4; i++) {
+        if (subButtons.index[i] > 0)
+            count++;
+    }
+    if (count < 4) {
+        alert(`Таны оруулсан өнгөнүүд дутуу байна.`);
+        return;
+    }
     let array = [0, 0, 0, 0, 0, 0, 0];
     let sameColor = 0;
     for (let i = 0; i < 4; i++) {
@@ -745,8 +794,9 @@ function checkV5() {
         document.getElementById("chance5").style.display = "flex";
         document.getElementById("submit-button6").style.display = "flex";
         document.getElementById("submit-button5").style.display = "none";
+        change_colorV5 = undefined; 
     } else {
-        alert(`Congratulations, I hope you found the algorithm of this game.`);
+        alert(`Баяр хүргэе, Танд сонирхолтой байсан гэдэгт итгэлтэй байна.`);
     }
 
     for (let i = 0; i < 4; i++) {
@@ -754,6 +804,15 @@ function checkV5() {
     }
 }
 function checkV6() {
+    let count = 0;
+    for (let i = 0; i < 4; i++) {
+        if (subButtons.index[i] > 0)
+            count++;
+    }
+    if (count < 4) {
+        alert(`Таны оруулсан өнгөнүүд дутуу байна.`);
+        return;
+    }
     let array = [0, 0, 0, 0, 0, 0, 0];
     let sameColor = 0;
     for (let i = 0; i < 4; i++) {
@@ -779,8 +838,9 @@ function checkV6() {
         document.getElementById("chance6").style.display = "flex";
         document.getElementById("submit-button7").style.display = "flex";
         document.getElementById("submit-button6").style.display = "none";
+        change_colorV6 = undefined; 
     } else {
-        alert(`Congratulations, I hope you found the algorithm of this game.`);
+        alert(`Баяр хүргэе, Танд сонирхолтой байсан гэдэгт итгэлтэй байна.`);
     }
 
     for (let i = 0; i < 4; i++) {
@@ -788,6 +848,15 @@ function checkV6() {
     }
 }
 function checkV7() {
+    let count = 0;
+    for (let i = 0; i < 4; i++) {
+        if (subButtons.index[i] > 0)
+            count++;
+    }
+    if (count < 4) {
+        alert(`Таны оруулсан өнгөнүүд дутуу байна.`);
+        return;
+    }
     let array = [0, 0, 0, 0, 0, 0, 0];
     let sameColor = 0;
     for (let i = 0; i < 4; i++) {
@@ -813,8 +882,9 @@ function checkV7() {
         document.getElementById("chance7").style.display = "flex";
         document.getElementById("submit-button8").style.display = "flex";
         document.getElementById("submit-button7").style.display = "none";
+        change_colorV7 = undefined; 
     } else {
-        alert(`Congratulations, I hope you found the algorithm of this game.`);
+        alert(`Баяр хүргэе, Танд сонирхолтой байсан гэдэгт итгэлтэй байна.`);
     }
 
     for (let i = 0; i < 4; i++) {
@@ -822,6 +892,15 @@ function checkV7() {
     }
 }
 function checkV8() {
+    let count = 0;
+    for (let i = 0; i < 4; i++) {
+        if (subButtons.index[i] > 0)
+            count++;
+    }
+    if (count < 4) {
+        alert(`Таны оруулсан өнгөнүүд дутуу байна.`);
+        return;
+    }
     let array = [0, 0, 0, 0, 0, 0, 0];
     let sameColor = 0;
     for (let i = 0; i < 4; i++) {
@@ -844,13 +923,15 @@ function checkV8() {
     document.getElementById("samePosV8").innerHTML = sameColorAndPosition;
 
     if (sameColorAndPosition < 4) {
-        document.getElementById("chance8").style.display = "flex";
+        alert(`Сайн оролдлого байлаа. Одоо уул нь ганц тоглочихвол хожлоо тэ.`);
         document.getElementById("submit-button8").style.display = "none";
+        document.getElementById("try-again").style.display = "flex";
     } else {
-        alert(`Congratulations, I hope you found the algorithm of this game.`);
+        alert(`Баяр хүргэе, Танд сонирхолтой байсан гэдэгт итгэлтэй байна.`);
     }
 
     for (let i = 0; i < 4; i++) {
         subButtons.index[i] = 0;
     }
+    change_colorV8 = undefined; 
 }
